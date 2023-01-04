@@ -5,12 +5,15 @@ import re
 import json
 import pandas as pd
 import time
+import pandas as pd
+import pickle
+#import urllib
+import urllib.parse
 
 #!pip install beautifulsoup4
 #!pip install tqdm
 #!pip install fake_headers
 
-import urllib.parse
 from urllib.parse import urlencode
 from time import time as timer
 from bs4 import BeautifulSoup
@@ -20,18 +23,14 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
 #!pip install tqdm
-import time
 from tqdm import tqdm
 from tqdm import tqdm_notebook, tnrange
 from selenium import webdriver 
 from selenium.webdriver.chrome.options import Options
-import pandas as pd
-import pickle
 
-import requests
+
 from requests.exceptions import SSLError
 
-import urllib
 from urllib.error import HTTPError, URLError
 from urllib.request import urlopen
 
